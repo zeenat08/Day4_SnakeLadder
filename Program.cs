@@ -6,8 +6,12 @@ namespace Snakeladder
     {
         static void Main(string[] args)
         {
-            //UC2_Number.RandomNumber();
+            UC2_Number.RandomNumber();
             UC1_SinglePlayer.SinglePosition();
+            UC3_Noplay_Ladder.PositionCheck();
+            UC4_WinningPosition.WinnerPosition();
+            UC5_ExactWinningPosition.ExactWinningPosition();
+
             Console.ReadKey();
         }
     }

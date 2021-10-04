@@ -12,9 +12,7 @@ namespace Snakeladder
             UC4_WinningPosition.WinnerPosition();
             UC5_ExactWinningPosition.ExactWinningPosition();
             UC6_No_Of_Dice.TimesPlayed();
-
-
-            
+            UC7_TwoPlayers.TwoPlayer();
         }
     }
 }
